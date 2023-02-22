@@ -1,3 +1,18 @@
-.main-title {
-    
+.About-element {
+  color: brown;
+}
+#About-ID {
+  color: darkblue;
+}
+h1 {
+  color: darkorange;
+}
+.class1.class2 {
+  color: darkgreen;
+}
+li b {
+  color: deeppink;
+}
+.Point {
+  color: indigo;
 }
