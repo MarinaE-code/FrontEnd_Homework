@@ -6,54 +6,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./fonts/font.css">
     <link rel="stylesheet" href="./css/style.css">
+
 </head>
 
 <body>
+    <header></header>
     <main>
-        <section class="first-section">
-            <h1 class="main-title">CSS селектори</h1>
-            <img class="Image" src="./images/161.jpg" alt="CSS" width="350">
-        </section>
-
-        <header>
-            <ul>
-                <li><b>За ID</b> - Ідентифікатор визначає унікальне ім'я елемента, яке використовується для зміни його
-                    стилю і звернення до нього через скрипти.</li>
-                <li><b>За класом</b> - Класи застосовують, коли необхідно визначити стиль для одного або декількох
-                    елементів веб-сторінки.</li>
-                <li><b>За кількома класами</b> - До будь-якого елемента одночасно можна додати кілька класів,
-                    перераховуючи
-                    їх в атрибуті class через пробіл. У цьому разі до елемента застосовується стиль, описаний у правилах
-                    для кожного класу.</li>
-                <li><b>За вкладенністю (Дочірні)</b> - Дочірнім називається елемент, який безпосередньо розташовується
-                    всередині батьківського елемента.</li>
-                <li><b>За назвою елементу</b> - Як селектор може виступати будь-який елемент HTML, для якого
-                    визначаються
-                    правила форматування, такі як: колір, фон, розмір тощо.</li>
-                <li><b>За атрибутом</b> - Встановлює стиль для елемента, якщо задано специфічний атрибут. Його значення
-                    в
-                    цьому випадку не важливе.</li>
-            </ul>
-        </header>
-        <p class="About-element">У цьому прикладі змінюється колір тексту і вирівнювання тексту абзацу. Стиль
-            застосовуватиметься тільки до
-            тексту, який розташовується всередині контейнера </p>
-        <p id="About-ID">Під час опису ідентифікатора спочатку вказується символ решітки (#), потім іде ім'я
-            ідентифікатора.</p>
-        <h2 class="class1 class2">Мультикласи</h2>
-
-        <ol>
-            <li class="Point">Point1</li>
-            <li class="Point">Point2</li>
-            <li class="Point">Point3</li>
-        </ol>
-
-        <footer>
-            <p class="discription">Селектор - це частина CSS-правила, яка повідомляє браузеру, до якого елементу
-                веб-сторінки буде застосований CSS стиль.</p>
-        </footer>
-
+        <h1 class="main-title">Mirror House</h1>
+        <div class="container">
+            <div class="card">
+                <img src="./images/АРТЕМИДА.jpg" alt="АРТЕМИДА">
+                <h2 class="card-title">Артемида</h2>
+                <p class="discription">Зеркало со светильником "Лебеди". Размер 80см*60см. Толщина 3см. </p>
+            </div>
+            <div class="card">
+                <img src="./images/ВЕЧНОСТЬ.jpg" alt="ВЕЧНОСТЬ">
+                <h2 class="card-title">Вечность</h2>
+                <p class="discription">Зеркальные часы. Диаметр 65см. Украсят Ваш интерьер.
+                </p>
+            </div>
+            <div class="card">
+                <img src="./images/ИНЬ И ЯНЬ.jpg" alt="ИНЬ И ЯНЬ">
+                <h2 class="card-title">Инь и Янь</h2>
+                <p class="discription">Зеркало состоящее из зеркала и стекла лакобель двух видов. Диаметр 75 см.</p>
+            </div>
+            <div class="card">
+                <img src="./images/ЛУНА.jpg" alt="Луна">
+                <h2 class="card-title">Луна</h2>
+                <p class="discription">Зеркало круглое с торцевой подсветкой. Диаметр 80см. Толщина 25мм. </p>
+            </div>
+            <div class="card">
+                <img src="./images/МИНОТАВР.jpg" alt="Минотавр">
+                <h2 class="card-title">Минотавр</h2>
+                <p class="discription">Зеркало с контуром из разноцветного лакобеля.Размер 90см.*70см. </p>
+            </div>
+            <div class="card">
+                <img src="./images//ОСИРИС1.jpg" alt="Осирис">
+                <h2 class="card-title">Осирис</h2>
+                <p class="discription">Зеркало круглое с орнаментом. Диаметр 80см. Толщина 30 мм.
+                </p>
+            </div>
+            <div class="card">
+                <img src="./images//ПЕРСЕЙ.jpg" alt="Персей">
+                <h2 class="card-title">Персей</h2>
+                <p class="discription">Горизонтальное зеркало в серебряной раме. Размер 90см*70см.
+                    Толщина 25мм. </p>
+            </div>
+            <div class="card">
+                <img src="./images//ЭФИР.jpg" alt="Эфир">
+                <h2 class="card-title">Эфир</h2>
+                <p class="discription">Зеркало необычной формы, состоящее из двух частей и цветов</p>
+            </div>
+            <div class="card">
+                <img src="./images/Веста.jpg" alt="Веста">
+                <h2 class="card-title">Веста</h2>
+                <p class="discription">Прямоугольное зеркало с подсветкой и подогревом. Размер 85см*65см </p>
+            </div>
+        </div>
     </main>
 </body>
 
