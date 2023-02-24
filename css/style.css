@@ -1,31 +1,35 @@
-.card {
-  display: inline-block;
-  border: 1px solid;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  margin-left: -3px;
-  max-width: calc(30% - 5px);
-  border-radius: 10px;
-  padding: 10px;
-}
-.card-title {
-  text-align: center;
-}
-.discription {
-  margin-top: 0px;
-  text-align: center;
-}
 .container {
-  max-width: 1140px;
-  margin: 0 auto;
+  width: 1100px;
+  height: 800px;
+  background: #c4c4c4;
 }
-img {
-  max-width: 100%;
+.wrap {
+  color: white;
+  width: 1000px;
+  height: 200px;
 }
-
 body {
   font-family: "Roboto", sans-serif;
 }
-h1 {
-  margin-left: 30px;
+
+.card {
+  background: #fc8f8f;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  font-size: 64px;
+  color: #ffffff;
+  margin-left: 15px;
+}
+.small-card {
+  background: #fc8f8f;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-size: 36px;
+  color: #ffffff;
+  margin-right: 15px;
+}
+.clearfix {
+  clear: both;
 }
