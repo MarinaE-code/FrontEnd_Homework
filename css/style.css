@@ -23,6 +23,8 @@ img {
   margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
+  background-color: white;
+  border: 1pc;
 }
 
 .hidden {
@@ -31,11 +33,12 @@ img {
 .search {
   margin-top: 20px;
   width: 100px;
-  background-color: rgb(146, 178, 238);
+  background-color: rgb(182, 201, 238);
   margin-bottom: 30px;
 }
 .registration {
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 .enter {
   margin-top: 10px;
@@ -49,10 +52,11 @@ span {
   margin-left: 10px;
 }
 .container-aut {
-  max-width: 600px;
+  max-width: 400px;
   margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
+  background-color: white;
 }
 
 .container-reg {
@@ -60,6 +64,7 @@ span {
   margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
+  background-color: white;
 }
 .input-reg {
   float: right;
@@ -73,4 +78,7 @@ select {
 label {
   padding-left: 30px;
   padding-right: 5px;
+}
+body {
+  background-color: rgb(241, 210, 214);
 }
