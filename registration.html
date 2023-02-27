@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./fonts/font.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <a href="./index.html">Головна</a>
+        <a href="/registration.html"></a>
+        <a href="./authorization.html">Увійти в кабінет</a>
+    </header>
+    <main>
+        <section class="container-reg">
+            <div>
+                <h1>Реєстрація на сайті</h1>
+                <form action="">
+                    <p>
+                        <label>
+                            <span>Ім'я</span>
+                            <input class="input-reg" type="text" name="first-name" placeholder="Введіть своє ім'я"
+                                required>
+                        </label>
+                    </p>
+                    <span style="display: block; margin-top: 10px;"></span>
+                    <p>
+                        <label>
+                            <span>Прізвище</span>
+                            <input class="input-reg" type="text" name="last-name" placeholder="Введіть своє прізвище">
+                        </label>
+                    </p>
+                    <span style="display: block; margin-top: 10px;"></span>
+                    <p>
+                        <label>
+                            <span>Телефон</span>
+                            <input class="input-reg" type="tel" name="tel" placeholder="Номер телефону">
+                        </label>
+                    </p>
+                    <span style="display: block; margin-top: 10px;"></span>
+                    <p>
+                        <label>
+                            <span>Електронна адреса</span>
+                            <input class="input-reg" type="email" required placeholder="електронна адреса">
+                        </label>
+                    </p>
+                    <span style="display: block; margin-top: 10px; margin-bottom: 10px;"></span>
+                    <p>
+                        <label>
+                            <span>Пароль</span>
+                            <input class="input-reg" type="password" required placeholder="password">
+                        </label>
+                    </p>
+                    <span style="display: block; margin-top: 10px; margin-bottom: 10px;"></span>
+                    <p>
+                        <label>
+                            <span>Підтвердження пароля</span>
+                            <input class="input-reg" type="password" required placeholder="password">
+                        </label>
+                    </p>
+                    <span style="display: block; margin-top: 10px; margin-bottom: 20px;"></span>
+                    <div>
+                        <label>
+
+                            <input type="checkbox" required>
+                            <span>Я приймаю умови “Угоди про надання онлайн-сервісів”</span>
+                        </label>
+                    </div>
+                    <button class="button-reg" style="margin-top: 20px;">Зареєструватися</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

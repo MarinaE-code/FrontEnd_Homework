@@ -28,3 +28,49 @@ img {
 .hidden {
   display: none !important;
 }
+.search {
+  margin-top: 20px;
+  width: 100px;
+  background-color: rgb(146, 178, 238);
+  margin-bottom: 30px;
+}
+.registration {
+  margin-top: 10px;
+}
+.enter {
+  margin-top: 10px;
+}
+.nav-aut {
+  margin-top: 10px;
+  padding-left: 1rem;
+}
+span {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.container-aut {
+  max-width: 600px;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container-reg {
+  max-width: 600px;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.input-reg {
+  float: right;
+  width: auto;
+}
+select {
+  float: right;
+  margin-right: 50px;
+  width: 200px;
+}
+label {
+  padding-left: 30px;
+  padding-right: 5px;
+}

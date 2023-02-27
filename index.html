@@ -5,15 +5,261 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic tamplate</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./fonts/font.css">
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
 
 <body>
+    <header>
+        <nav>
+            <a href="./authorization.html">Увійти в кабінет</a>
+        </nav>
+    </header>
 
     <main class="main">
+        <section>
+            <div class="container" style="float: left;">
+                <h1>Пошук</h1>
+                <form action="https://fom.in.ua/echo" method="post">
+                    <fieldset>
+                        <legend>
+                            Основні характеристики
+                        </legend>
+                        <p>
+                            <label>
+                                <span>
+                                    Тип кузова
+                                </span>
+                                <!-- <input type="text" name="test" placeholder="Оберіть тип кузова"> -->
+                                <select name="body-type">
+                                    <option value="0" disabled selected>Оберіть тип кузова</option>
+                                    <option value="1">Седан</option>
+                                    <option value="2">Купе</option>
+                                    <option value="3">Хетчбек</option>
+                                    <option value="4">Універсал</option>
+                                    <option value="5">Фургон</option>
+                                    <option value="6">Мінівен</option>
+                                    <option value="7">Пікап</option>
+                                </select>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <span>
+                                    Марка авто
+                                </span>
+                                <select name="model">
+                                    <option value="0" disabled selected>Оберіть марку</option>
+                                    <option value="1">Audi</option>
+                                    <option value="2">Toyota</option>
+                                    <option value="3">Hyundai
+                                    </option>
+                                    <option value="4">ВАЗ</option>
+                                    <option value="5">Land Rover</option>
+                                    <option value="6">Nissan</option>
+                                    <option value="7">Volvo</option>
+                                </select>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <span>Країна виробник </span>
+                                <select name="manufacturer-country">
+                                    <option value="0" disabled selected>Оберіть країну</option>
+                                    <option value="1">Японія</option>
+                                    <option value="2">Німеччина</option>
+                                    <option value="3">Україна</option>
+                                    <option value="4">Франція</option>
+                                    <option value="5">Корея</option>
+                                    <option value="6">Польша</option>
+                                    <option value="7">США</option>
+                                </select>
+                            </label>
+                        </p>
+                        <div>
+                            <p>
+                                <label>
+                                    <span> Рік випуску </span>
+                                </label>
+                                <label>
+                                    <select name="year to">
+                                        <option value="0" disabled selected>До</option>
+                                        <option value="1">2016</option>
+                                        <option value="2">2017</option>
+                                        <option value="3">2018</option>
+                                        <option value="4">2019</option>
+                                        <option value="5">2020</option>
+                                        <option value="6">2021</option>
+                                        <option value="7">2022</option>
+                                    </select>
+                                </label>
+                                <label>
+                                    <select name="year from">
+                                        <option value="0" disabled selected>Від</option>
+                                        <option value="1">2016</option>
+                                        <option value="2">2017</option>
+                                        <option value="3">2018</option>
+                                        <option value="4">2019</option>
+                                        <option value="5">2020</option>
+                                        <option value="6">2021</option>
+                                        <option value="7">2022</option>
+                                    </select>
+                                </label>
+                            </p>
+                        </div>
+                        <div>
+                            <p>
+                                <label>
+                                    <span>Ціна</span>
+                                </label>
+                                <label>
+                                    <input type="number" name="cost from" placeholder="Від">
+                                </label>
+                                <label>
+                                    <input type="number" name="cost to" placeholder="До">
+                                </label>
+                            </p>
+                        </div>
+                        <span style="display: block; margin-top: 10px;"></span>
+                        <p>
+                            <label>
+                                <span> Колір </span>
+                                <input type="color" name="Color" placeholder="Оберіть колір">
+                            </label>
+                        </p>
+                        <span style="display: block; margin-top: 10px;"></span>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Технічні характеристики</legend>
+                        <div>
+                            <p>
+                                <span>Тип палива</span>
+                                <label>
+                                    <span>Бензин </span>
+                                    <input type="checkbox" name="fuel" value="1">
+
+                                </label>
+                                <label>
+                                    <span>Дизель</span>
+                                    <input type="checkbox" name="fuel" value="2">
+                                </label>
+                                <label>
+                                    <span>Газ</span>
+                                    <input type="checkbox" name="fuel" value="3">
+                                </label>
+                                <label>
+                                    <span>Електро</span>
+                                    <input type="checkbox" name="fuel" value="4">
+                                </label>
+                                <label>
+                                    <span>Газ/Бензин</span>
+                                    <input type="checkbox" name="fuel" value="5">
+                                </label>
+                            </p>
+                        </div>
+
+                        <div>
+                            <p>
+                                <span>КПП</span>
+                                <br>
+                                <label>
+                                    <input type="radio" name="transmission" value="1">
+                                    <span>Ручна/механіка</span>
+                                </label>
+                                <br>
+                                <label>
+                                    <input type="radio" name="transmission" value="2">
+                                    <span>Автомат</span>
+                                </label>
+                                <br>
+                                <label>
+                                    <input type="radio" name="transmission" value="3">
+                                    <span>Робот</span>
+                                </label>
+                                <br>
+                            </p>
+                        </div>
+
+                    </fieldset>
+                    <fieldset>
+                        <legend>Комфорт</legend>
+                        <p>
+                            <label>
+                                <span>Кондиціонер</span>
+                                <select name="air-conditioner">
+                                    <option value="0" disabled selected>Оберіть</option>
+                                    <option value="1">Кондиціонер</option>
+                                    <option value="2">Клімат-контроль 1 зони</option>
+                                    <option value="3">Клімат-контроль 2 зон</option>
+                                </select>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <span>Підігрів сидінь </span>
+                                <select name="heated-seats">
+                                    <option value="0" disabled selected>Оберіть</option>
+                                    <option value="1">Передні</option>
+                                    <option value="2">Передні та задні</option>
+                                </select>
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                <span> Колір салону </span>
+                                <select name="salon-color">
+                                    <option value="0" disabled selected>Оберіть</option>
+                                    <option value="1">Світлий</option>
+                                    <option value="2">Темний</option>
+                                </select>
+                            </label>
+                        </p>
+                        <span style="display: block; margin-top: 10px;"></span>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Стан</legend>
+                        <label>
+                            <input type="checkbox" name="state" value="1">
+                            <span> Нові авто </span>
+                        </label>
+                        <br>
+                        <label>
+                            <input type="checkbox" name="state" value="1">
+                            <span> Після ДТП </span>
+                        </label>
+                        <br>
+                        <label>
+                            <input type="checkbox" name="state" value="2">
+                            <span>В кредиті</span>
+                        </label>
+                        <br>
+                        <label>
+                            <input type="checkbox" name="state" value="3">
+                            <span>Не розмитнені</span>
+                        </label>
+                        <br>
+                        <label>
+                            <input type="checkbox" name="state" value="4">
+                            <span>Конфіскат</span>
+                        </label>
+                        <br>
+                        <label>
+                            <input type="checkbox" name="state" value="5">
+                            <span>Не в Укріїні (Під замовлення)</span>
+                        </label>
+                        <span style="display: block; margin-top: 10px;"></span>
+                    </fieldset>
+                </form>
+                <div>
+                    <button class="search">Пошук</button>
+                </div>
+            </div>
+
+
+        </section>
+
 
     </main>
 </body>
