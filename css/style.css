@@ -36,10 +36,7 @@ img {
   background-color: rgb(182, 201, 238);
   margin-bottom: 30px;
 }
-.registration {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
+
 .enter {
   margin-top: 10px;
 }
@@ -82,3 +79,12 @@ label {
 body {
   background-color: rgb(241, 210, 214);
 }
+.button-reg {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.block {
+  display: block; 
+  margin-top: 10px;
+}
+ 
