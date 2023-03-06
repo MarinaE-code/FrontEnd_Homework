@@ -12,248 +12,317 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="./authorization.html">Увійти в кабінет</a>
-        </nav>
-    </header>
-    <main class="main">
+    <main>
         <section>
-            <div class="container" style="float: left;">
-                <h1>Пошук</h1>
-                <form action="https://fom.in.ua/echo" method="post">
-                    <fieldset>
-                        <legend>
-                            Основні характеристики
-                        </legend>
-                        <p>
-                            <label>
-                                <span>
-                                    Тип кузова
-                                </span>
-                                <select name="body-type">
-                                    <option value="0" disabled selected>Оберіть тип кузова</option>
-                                    <option value="1">Седан</option>
-                                    <option value="2">Купе</option>
-                                    <option value="3">Хетчбек</option>
-                                    <option value="4">Універсал</option>
-                                    <option value="5">Фургон</option>
-                                    <option value="6">Мінівен</option>
-                                    <option value="7">Пікап</option>
-                                </select>
-                            </label>
-                        </p>
-                        <p>
-                            <label>
-                                <span>Марка авто</span>
-                                <select name="model">
-                                    <option value="0" disabled selected>Оберіть марку</option>
-                                    <option value="1">Audi</option>
-                                    <option value="2">Toyota</option>
-                                    <option value="3">Hyundai
-                                    </option>
-                                    <option value="4">ВАЗ</option>
-                                    <option value="5">Land Rover</option>
-                                    <option value="6">Nissan</option>
-                                    <option value="7">Volvo</option>
-                                </select>
-                            </label>
-                        </p>
-                        <p>
-                            <label>
-                                <span>Країна виробник</span>
-                                <select name="manufacturer-country">
-                                    <option value="0" disabled selected>Оберіть країну</option>
-                                    <option value="1">Японія</option>
-                                    <option value="2">Німеччина</option>
-                                    <option value="3">Україна</option>
-                                    <option value="4">Франція</option>
-                                    <option value="5">Корея</option>
-                                    <option value="6">Польша</option>
-                                    <option value="7">США</option>
-                                </select>
-                            </label>
-                        </p>
-                        <div>
-                            <p>
-                                <label>
-                                    <span> Рік випуску </span>
-                                </label>
-                                <label>
-                                    <select name="year to">
-                                        <option value="0" disabled selected>До</option>
-                                        <option value="1">2016</option>
-                                        <option value="2">2017</option>
-                                        <option value="3">2018</option>
-                                        <option value="4">2019</option>
-                                        <option value="5">2020</option>
-                                        <option value="6">2021</option>
-                                        <option value="7">2022</option>
-                                    </select>
-                                </label>
-                                <label>
-                                    <select name="year from">
-                                        <option value="0" disabled selected>Від</option>
-                                        <option value="1">2016</option>
-                                        <option value="2">2017</option>
-                                        <option value="3">2018</option>
-                                        <option value="4">2019</option>
-                                        <option value="5">2020</option>
-                                        <option value="6">2021</option>
-                                        <option value="7">2022</option>
-                                    </select>
-                                </label>
-                            </p>
-                        </div>
-                        <div>
-                            <p>
-                                <label>
-                                    <span>Ціна</span>
-                                </label>
-                                <label>
-                                    <input type="number" name="cost from" placeholder="Від">
-                                </label>
-                                <label>
-                                    <input type="number" name="cost to" placeholder="До">
-                                </label>
-                            </p>
-                        </div>
-                        <span class="block"></span>
-                        <p>
-                            <label>
-                                <span>Колір</span>
-                                <input type="color" name="Color">
-                            </label>
-                        </p>
-                        <span class="block"></span>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Технічні характеристики</legend>
-                        <div>
-                            <p>
-                                <span>Тип палива</span>
-                                <label>
-                                    <span>Бензин </span>
-                                    <input type="checkbox" name="fuel" value="1">
-                                </label>
-                                <label>
-                                    <span>Дизель</span>
-                                    <input type="checkbox" name="fuel" value="2">
-                                </label>
-                                <label>
-                                    <span>Газ</span>
-                                    <input type="checkbox" name="fuel" value="3">
-                                </label>
-                                <label>
-                                    <span>Електро</span>
-                                    <input type="checkbox" name="fuel" value="4">
-                                </label>
-                                <label>
-                                    <span>Газ/Бензин</span>
-                                    <input type="checkbox" name="fuel" value="5">
-                                </label>
-                            </p>
-                        </div>
+            <div>
+                <h1>Практичне заняття з теми "HTML таблиці" </h1>
+                <h3>Календар на 2023 рік</h3>
+                <table align="center">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <table>
+                                    <caption>Січень</caption>
+                                    <colgroup>
+                                        <col>
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th>№нед</th>
+                                            <th>Пн</th>
+                                            <th>Вт</th>
+                                            <th>Ср</th>
+                                            <th>Чт</th>
+                                            <th>Пт</th>
+                                            <th>Сб</th>
+                                            <th>Нд</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td></td>
+                                            <td>1</td>
+                                            <td>2</td>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>6</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>7</td>
+                                            <td>8</td>
+                                            <td>9</td>
+                                            <td>10</td>
+                                            <td>11</td>
+                                            <td>12</td>
+                                            <td>13</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>14</td>
+                                            <td>15</td>
+                                            <td>16</td>
+                                            <td>17</td>
+                                            <td>18</td>
+                                            <td>19</td>
+                                            <td>20</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td>21</td>
+                                            <td>22</td>
+                                            <td>23</td>
+                                            <td>24</td>
+                                            <td>25</td>
+                                            <td>26</td>
+                                            <td>27</td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td>28</td>
+                                            <td>29</td>
+                                            <td>30</td>
+                                            <td>31</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td>
+                                <table>
+                                    <caption>Лютий</caption>
+                                    <colgroup>
+                                        <col>
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th>№нед</th>
+                                            <th>Пн</th>
+                                            <th>Вт</th>
+                                            <th>Ср</th>
+                                            <th>Чт</th>
+                                            <th>Пт</th>
+                                            <th>Сб</th>
+                                            <th>Нд</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>1</td>
+                                            <td>2</td>
+                                            <td>3</td>
 
-                        <div>
-                            <p>
-                                <span>КПП</span>
-                                <br>
-                                <label>
-                                    <input type="radio" name="transmission" value="1">
-                                    <span>Ручна/механіка</span>
-                                </label>
-                                <br>
-                                <label>
-                                    <input type="radio" name="transmission" value="2">
-                                    <span>Автомат</span>
-                                </label>
-                                <br>
-                                <label>
-                                    <input type="radio" name="transmission" value="3">
-                                    <span>Робот</span>
-                                </label>
-                                <br>
-                            </p>
-                        </div>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Комфорт</legend>
-                        <p>
-                            <label>
-                                <span>Кондиціонер</span>
-                                <select name="air-conditioner">
-                                    <option value="0" disabled selected>Оберіть</option>
-                                    <option value="1">Кондиціонер</option>
-                                    <option value="2">Клімат-контроль 1 зони</option>
-                                    <option value="3">Клімат-контроль 2 зон</option>
-                                </select>
-                            </label>
-                        </p>
-                        <p>
-                            <label>
-                                <span>Підігрів сидінь </span>
-                                <select name="heated-seats">
-                                    <option value="0" disabled selected>Оберіть</option>
-                                    <option value="1">Передні</option>
-                                    <option value="2">Передні та задні</option>
-                                </select>
-                            </label>
-                        </p>
-                        <p>
-                            <label>
-                                <span> Колір салону </span>
-                                <select name="salon-color">
-                                    <option value="0" disabled selected>Оберіть</option>
-                                    <option value="1">Світлий</option>
-                                    <option value="2">Темний</option>
-                                </select>
-                            </label>
-                        </p>
-                        <span class="block"></span>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Стан</legend>
-                        <label>
-                            <input type="checkbox" name="state" value="1">
-                            <span> Нові авто </span>
-                        </label>
-                        <br>
-                        <label>
-                            <input type="checkbox" name="state" value="1">
-                            <span> Після ДТП </span>
-                        </label>
-                        <br>
-                        <label>
-                            <input type="checkbox" name="state" value="2">
-                            <span>В кредиті</span>
-                        </label>
-                        <br>
-                        <label>
-                            <input type="checkbox" name="state" value="3">
-                            <span>Не розмитнені</span>
-                        </label>
-                        <br>
-                        <label>
-                            <input type="checkbox" name="state" value="4">
-                            <span>Конфіскат</span>
-                        </label>
-                        <br>
-                        <label>
-                            <input type="checkbox" name="state" value="5">
-                            <span>Не в Україні (Під замовлення)</span>
-                        </label>
-                        <span class="block"></span>
-                    </fieldset>
-                </form>
-                <div>
-                    <button class="search">Пошук</button>
-                </div>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>6</td>
+                                            <td>7</td>
+                                            <td>8</td>
+                                            <td>9</td>
+                                            <td>10</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>11</td>
+                                            <td>12</td>
+                                            <td>13</td>
+                                            <td>14</td>
+                                            <td>15</td>
+                                            <td>16</td>
+                                            <td>17</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td>18</td>
+                                            <td>19</td>
+                                            <td>20</td>
+                                            <td>21</td>
+                                            <td>22</td>
+                                            <td>23</td>
+                                            <td>24</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td>25</td>
+                                            <td>26</td>
+                                            <td>27</td>
+                                            <td>28</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table>
+                                    <caption>Березень</caption>
+                                    <colgroup>
+                                        <col>
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th>№нед</th>
+                                            <th>Пн</th>
+                                            <th>Вт</th>
+                                            <th>Ср</th>
+                                            <th>Чт</th>
+                                            <th>Пт</th>
+                                            <th>Сб</th>
+                                            <th>Нд</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td>1</td>
+                                            <td>2</td>
+                                            <td>3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>6</td>
+                                            <td>7</td>
+                                            <td>8</td>
+                                            <td>9</td>
+                                            <td>10</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>11</td>
+                                            <td>12</td>
+                                            <td>13</td>
+                                            <td>14</td>
+                                            <td>15</td>
+                                            <td>16</td>
+                                            <td>17</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td>18</td>
+                                            <td>19</td>
+                                            <td>20</td>
+                                            <td>21</td>
+                                            <td>22</td>
+                                            <td>23</td>
+                                            <td>24</td>
+
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td>25</td>
+                                            <td>26</td>
+                                            <td>27</td>
+                                            <td>28</td>
+                                            <td>29</td>
+                                            <td>30</td>
+                                            <td>31</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                            <td>
+                                <table>
+                                    <caption>Квітень</caption>
+                                    <colgroup>
+                                        <col>
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th>№нед</th>
+                                            <th>Пн</th>
+                                            <th>Вт</th>
+                                            <th>Ср</th>
+                                            <th>Чт</th>
+                                            <th>Пт</th>
+                                            <th>Сб</th>
+                                            <th>Нд</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>1</td>
+                                            <td>2</td>
+                                            <td>3</td>
+                                            <td>4</td>
+                                            <td>5</td>
+                                            <td>6</td>
+                                            <td>7</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>8</td>
+                                            <td>9</td>
+                                            <td>10</td>
+                                            <td>11</td>
+                                            <td>12</td>
+                                            <td>13</td>
+                                            <td>14</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>15</td>
+                                            <td>16</td>
+                                            <td>17</td>
+                                            <td>18</td>
+                                            <td>19</td>
+                                            <td>20</td>
+                                            <td>21</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td>22</td>
+                                            <td>23</td>
+                                            <td>24</td>
+                                            <td>25</td>
+                                            <td>26</td>
+                                            <td>27</td>
+                                            <td>28</td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td>29</td>
+                                            <td>30</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
             </div>
 
 
         </section>
-
 
     </main>
 </body>
