@@ -1,22 +1,98 @@
+@import url(./basic.css);
 
-html {
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  font-weight: 400;
+.bg-gray {
+  background-color: var(--color-gray);
 }
-h1,
-h3 {
+
+.bg-blue {
+  background-color: var(--color-blue);
+  color: white;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+.section-title {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+/* ------------------------------------------------------------------------------------- */
+.header {
+  padding-left: 399px;
+}
+.navigation {
+  padding-top: 79px;
+}
+a:first-child {
+  color: #34547a;
+}
+.nav-header + .nav-header {
+  margin-left: 42px;
+}
+
+.main-title {
+  font-size: 48px;
+  max-width: 541px;
+  margin-bottom: 60px;
+  padding-top: 257px;
+}
+.lorem {
+  max-width: 540px;
+  min-height: 67px;
+  margin-bottom: 65px;
+}
+.button {
+  width: 225px;
+  height: 65px;
+  margin-bottom: 141px;
+}
+.text-button {
   text-align: center;
 }
-table {
-  border: 1px solid;
+.first-section {
+  margin-bottom: 112px;
+}
+/* -------------------------------------------------------------------- */
+
+.text-about {
+  width: 540px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+/* ------------------------------------------------------------------------ */
+.blocks {
+  display: inline-block;
+  margin-right: 20px;
 }
 
-td,
-th {
-  padding: 0.25rem 0.5rem;
+.wrapper {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  max-width: 1110px;
 }
-col {
-  display: table-column;
-  background: yellow;
+.card-title {
+  float: right;
+}
+
+/* ------------------------------------------- */
+.video {
+  width: 1110px;
+  height: 600px;
+}
+
+/* ---------------------------------------------------------------- */
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 406px;
+}
+
+.title-footer {
+  margin-bottom: 20px;
+  font-size: 21px;
+}
+.text-footer {
+  font-size: 13px;
 }
