@@ -55,7 +55,9 @@ a:first-child {
   margin-bottom: 112px;
 }
 /* -------------------------------------------------------------------- */
-
+.about-section {
+  background-color: #ffffff;
+}
 .text-about {
   width: 540px;
   text-align: center;
@@ -64,6 +66,9 @@ a:first-child {
 /* ------------------------------------------------------------------------ */
 .blocks {
   display: inline-block;
+}
+.card {
+  float: left;
   margin-right: 20px;
 }
 
@@ -74,12 +79,25 @@ a:first-child {
 }
 .card-title {
   float: right;
+  margin-right: 83px;
 }
 
 /* ------------------------------------------- */
+.last-section-title {
+  padding-top: 100px;
+}
+.lorem-video {
+  margin-bottom: 57px;
+}
 .video {
   width: 1110px;
   height: 600px;
+  padding-bottom: 100px;
+}
+.video-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ---------------------------------------------------------------- */
