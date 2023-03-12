@@ -1,111 +1,70 @@
-@import url(./basic.css);
-
-.bg-gray {
-  background-color: var(--color-gray);
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
 }
 
-.bg-blue {
-  background-color: var(--color-blue);
-  color: white;
+.menu {
+  padding: 0;
+  margin: 0;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-.section-title {
-  font-size: 32px;
-  text-align: center;
-  margin-bottom: 50px;
-}
-.container {
-  width: 1110px;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* ------------------------------------------------------------------------------------- */
-
-a:first-child {
-  color: #34547a;
-}
-.nav-header + .nav-header {
-  margin-left: 42px;
-}
-
-.main-title {
-  font-size: 48px;
-  max-width: 541px;
-  margin-bottom: 60px;
-  padding-top: 151px;
-}
-.lorem {
-  max-width: 540px;
-  margin-bottom: 65px;
-}
-.button {
-  width: 225px;
-  height: 65px;
-  border: none;
-}
-.text-button {
-  text-align: center;
-}
-.first-section {
-  padding-bottom: 141px;
-  padding-top: 79px;
-}
-/* -------------------------------------------------------------------- */
-.about-section {
-  background-color: #ffffff;
-  padding-top: 112px;
-  padding-bottom: 100px;
-}
-.text-about {
-  width: 540px;
-  text-align: center;
-}
-/* ------------------------------------------------------------------------ */
-.blocks {
-  display: inline-block;
-}
-.card {
+.menu li {
+  list-style: none;
   float: left;
-  margin-right: 20px;
+  padding: 0;
+  margin: 0;
+  width: 100px;
+  text-align: center;
+  background: #333333;
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.wrapper {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  max-width: 1110px;
+.menu li ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 34.5px;
 }
-.card-title {
+
+.menu li ul li {
+  float: none;
+  margin: 0;
+  text-align: center;
+  background-color: #00a5f4;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.menu li:hover ul {
+  display: block;
+}
+
+.menu li:hover {
+  background-color: #00a8ff;
+}
+
+.menu li ul li ul {
+  left: 100px;
+  top: 0;
+}
+
+.menu li ul li ul li {
+  display: none;
+}
+
+.menu li ul li:hover ul li {
+  display: block;
+}
+.pl {
   float: right;
-  margin-right: 83px;
-}
-
-/* ------------------------------------------- */
-.last-section {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-.lorem-video {
-  margin-bottom: 57px;
-}
-.video {
-  width: 1110px;
-  height: 600px;
-}
-
-/* ---------------------------------------------------------------- */
-.footer {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.title-footer {
-  margin-bottom: 20px;
-  font-size: 21px;
-}
-.text-footer {
-  font-size: 13px;
+  padding-right: 10px;
 }
