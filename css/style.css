@@ -14,7 +14,7 @@ html {
   padding: 0;
   margin: 0;
   width: 100px;
-  text-align: center;
+  padding-left: 15px;
   background: #333333;
   position: relative;
   padding-top: 10px;
@@ -34,8 +34,8 @@ html {
 .menu li ul li {
   float: none;
   margin: 0;
-  text-align: center;
   background-color: #00a5f4;
+  padding-left: 15px;
 }
 
 .menu li a {
@@ -53,7 +53,7 @@ html {
 }
 
 .menu li ul li ul {
-  left: 100px;
+  left: 115px;
   top: 0;
 }
 
