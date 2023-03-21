@@ -14,6 +14,9 @@
 .items-center {
   align-items: center;
 }
+.align-beetween {
+  align-content: space-between;
+}
 .justify-beetween {
   justify-content: space-between;
 }
@@ -33,6 +36,8 @@
   border: 1px solid #dacec6;
   background-color: var(--bg-button);
   color: var(--color-broun);
+  display: inline-block;
+  text-align: center;
 }
 /* --------------Header----------------- */
 .header {
@@ -62,11 +67,11 @@
 .main-title {
   padding-left: 50px;
   padding-top: 150px;
+  padding-bottom: 290px;
 }
 .btn-1 {
   margin-top: 47px;
   padding: 21px;
-  position: relative;
 }
 .you {
   color: var(--color-broun);
@@ -74,7 +79,10 @@
   transform: rotate(5.54deg);
   font-size: 175px;
   position: absolute;
+  top: 480px;
+  right: 600px;
 }
+
 .first-section {
   background-image: url("../images/IMAGE.png");
   background-repeat: no-repeat;
@@ -244,7 +252,6 @@
   background-repeat: no-repeat;
   width: 33.3%;
   aspect-ratio: 1;
-
   background-size: cover;
 }
 
@@ -264,6 +271,106 @@
   color: white;
   text-align: center;
   padding-top: 65px;
+  margin: auto;
 }
 
 /* ---------------foto------------- */
+/* ----------Blog--------------- */
+.title-blog {
+  font-family: "STSong";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 66px;
+  line-height: 98px;
+  text-align: center;
+  padding-bottom: 51px;
+}
+.blog-discription {
+  font-family: "STSong";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 36px;
+  flex-grow: 1;
+}
+.gap-88 {
+  gap: 88px;
+}
+.gap-30 {
+  gap: 30px;
+}
+.blog-btn {
+  border-radius: 166px;
+  padding: 13px 21px;
+  margin-bottom: 0;
+}
+.blog-content {
+  flex-direction: column;
+  align-items: last baseline;
+}
+
+/* ----------Blog--------------- */
+/* ------------footer--------------- */
+footer {
+  margin-top: 127px;
+  border-radius: 10px;
+  background-color: var(--bg-card);
+}
+.footer-wrapper {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.title-card-footer {
+  font-family: "STSong";
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 39px;
+  margin-bottom: 29px;
+}
+.nav-list {
+  list-style: none;
+  font-size: 13px;
+  line-height: 20px;
+}
+.nav-2 {
+  max-width: 251px;
+}
+.footer-card-2 {
+  flex-grow: 1;
+}
+.footer-card-3 {
+  flex-grow: 1;
+}
+.footer-card-4 {
+  flex-grow: 1;
+}
+.footer-card-1 {
+  flex-grow: 1;
+  max-width: 160px;
+}
+.gap-128 {
+  gap: 128px;
+}
+.nav-list li {
+  margin-bottom: 9px;
+}
+.color-broun {
+  color: var(--color-broun);
+}
+.card-1-text {
+  margin-top: 21px;
+}
+.card-1-text2 {
+  margin-top: 57px;
+}
+.gap-53 {
+  gap: 53px;
+}
+.socials {
+  margin-top: 71px;
+}
+.display-block {
+  margin-top: 39px;
+  display: block;
+}
+/* -------------footer--------------- */
