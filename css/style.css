@@ -229,28 +229,31 @@
 }
 /* -------------------------foto-------------- */
 .foto {
+  margin-bottom: 100px;
 }
 .card-1 {
   background-image: url("../images/IMAGE-12.png");
   background-repeat: no-repeat;
-  padding-right: 187px;
-  padding-bottom: 184px;
-  padding-top: 184px;
-  padding-left: 181px;
+  width: 33.3%;
+  aspect-ratio: 1;
+
+  background-size: cover;
 }
 .card-2 {
   background-image: url("../images/IMAGE-13.png");
   background-repeat: no-repeat;
-  padding: 184px;
+  width: 33.3%;
+  aspect-ratio: 1;
+
+  background-size: cover;
 }
 
 .card-3 {
   background-image: url("../images/IMAGE-14.png");
   background-repeat: no-repeat;
-  padding: 184px;
-}
-
-.white-squares {
+  width: 33.3%;
+  aspect-ratio: 1;
+  background-size: cover;
 }
 
 .white-title {
