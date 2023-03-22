@@ -52,6 +52,9 @@
   color: var(--color-broun);
   border: none;
 }
+.nav {
+  color: #222222;
+}
 /* --------------Header----------------- */
 /* -----first-section----------------- */
 .main-title {
