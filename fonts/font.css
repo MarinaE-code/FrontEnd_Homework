@@ -1,16 +1,10 @@
 @font-face {
-  font-family: "Inter";
-  src: url("./Inter-VariableFont_slnt_wght.woff") format("woff");
+  font-family: "Bitter";
+  src: url("./Bitter-VariableFont_wght.woff") format("woff");
   font-weight: 400;
 }
 @font-face {
-  font-family: "StyleScript";
-  src: url("./StyleScript-Regular.woff") format("woff");
+  font-family: "Raleway";
+  src: url("./Raleway-VariableFont_wght.woff") format("woff");
   font-weight: 400;
-}
-
-@font-face {
-  font-family: "STSong";
-  src: url("./STSong.woff") format("woff");
-  font-weight: 300;
 }
