@@ -145,4 +145,25 @@
   font-weight: 400;
   font-size: 15px;
   line-height: 20px;
+  margin-bottom: 74px;
+}
+.img-view {
+  float: left;
+  margin-right: 4px;
+}
+.bg-image {
+  background-image: url(../images/IMAGE-bg.png);
+  margin-top: 100px;
+}
+.view-title {
+  height: 32px;
+  font-family: "Bitter";
+  font-style: normal;
+  font-size: 28px;
+  line-height: 32px;
+  margin-left: 12px;
+}
+.wrapper-view {
+  padding-top: 31px;
+  padding-bottom: 31px;
 }
