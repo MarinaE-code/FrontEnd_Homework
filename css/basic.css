@@ -1,14 +1,16 @@
 :root {
-  --container-width: 1150px;
+  --basic-space: 15px;
+  --color-main-regular: #323264;
+  --color-grey: #b3b3ba;
+  --bg-grey: #f5f5fa;
+  --color-dark: #46466e;
+  --big-container-width: 1320px;
+  --small-container-width: 1080px;
+  --color-red: #f0145a;
   --basic-space: 1rem;
-  --color-white: #ffffff;
-  --bg-btn: #17a550;
-  --bg-light: #f5f5f5;
-  --color-black: #000000;
-  --color-dark: #333333;
-  --bg-gray: #e3ebf1;
-  --text-color: #1d2f38;
-  --color-green: #10843f;
+  --color-blue: #24a3ff;
+  --bg-light: #e6e6f0;
+  --basic-indent: calc(var(--basic-space) * 2);
 }
 
 * {
@@ -24,31 +26,44 @@ a:hover {
 }
 
 html {
-  font-family: "Raleway";
-  font-size: 14px;
-  line-height: 1.38;
+  font-family: "Montserrat";
+  font-size: 16px;
+  line-height: 1.21;
   font-weight: 400;
-  color: var(--text-color);
+  color: var(--color-main-regular);
 }
 
-button {
-  font: inherit;
-  background-color: transparent;
+.color-grey {
+  color: var(--color-grey);
 }
-
-body {
-  min-height: 100vh;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  background-color: var(--bg-light);
+.bg-grey {
+  background-color: var(--bg-grey);
 }
-
-.container {
-  max-width: calc(var(--container-width) + var(--basic-space) * 2);
+.color-blue {
+  color: var(--color-blue);
+}
+.big-container {
+  max-width: calc(var(--big-container-width) + var(--basic-indent) * 2);
   margin-left: auto;
   margin-right: auto;
-  padding-left: var(--basic-space);
-  padding-right: var(--basic-space);
+  padding-left: var(--basic-indent);
+  padding-right: var(--basic-indent);
+}
+.small-container {
+  max-width: calc(var(--small-container-width) + var(--basic-indent) * 2);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.color-red {
+  color: var(--color-red);
+}
+.py-rem {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.font-bold {
+  font-weight: 700;
 }
 
 .hidden {

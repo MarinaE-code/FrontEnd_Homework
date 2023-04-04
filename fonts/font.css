@@ -1,32 +1,10 @@
 @font-face {
-  font-family: "Bitter";
-  src: url("./Bitter-Regular.ttf") format("woff");
+  font-family: "Montserrat";
+  src: url("./Montserrat-Regular.woff") format("woff");
   font-weight: 400;
 }
 @font-face {
-  font-family: "Bitter";
-  src: url("./Bitter-Medium.ttf ") format("woff");
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: "Bitter";
-  src: url("./Bitter-Bold.ttf") format("woff");
+  font-family: "Montserrat";
+  src: url("./Raleway-Bold.woff ") format("woff");
   font-weight: 700;
-}
-
-@font-face {
-  font-family: "Raleway";
-  src: url("./Raleway-Bold.woff") format("woff");
-  font-weight: 700;
-}
-@font-face {
-  font-family: "Raleway";
-  src: url("./Raleway-Medium.woff") format("woff");
-  font-weight: 500;
-}
-@font-face {
-  font-family: "Raleway";
-  src: url("./Raleway-Regular.woff") format("woff");
-  font-weight: 400;
 }
