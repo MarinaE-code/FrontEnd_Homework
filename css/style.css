@@ -86,7 +86,6 @@ header .dot {
   font-weight: 700;
   font-size: 16px;
   color: var(--color-blue);
-
   justify-content: flex-end;
 }
 .header .nav a {
@@ -105,6 +104,9 @@ header .dot {
 .fb:hover svg path {
   fill: var(--color-red);
 }
+/* .hide-check {
+  display: none;
+} */
 /* --------------Header----------------- */
 /* -----first-section----------------- */
 .card-title {
@@ -120,15 +122,19 @@ header .dot {
   background-image: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .title-wrapper {
   margin-top: 60px;
   margin-bottom: 60px;
 }
 .grid-card {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 60px;
 }
 .card:hover .card-title {
   color: var(--color-red);
