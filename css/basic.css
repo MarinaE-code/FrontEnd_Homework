@@ -4,10 +4,9 @@
   --color-grey: #b3b3ba;
   --bg-grey: #f5f5fa;
   --color-dark: #46466e;
-  --big-container-width: 1320px;
-  --small-container-width: 1080px;
+  /* --big-container-width: 1320px;
+  --small-container-width: 1080px; */
   --color-red: #f0145a;
-  --basic-space: 1rem;
   --color-blue: #24a3ff;
   --bg-light: #e6e6f0;
   --basic-indent: calc(var(--basic-space) * 2);
@@ -46,13 +45,15 @@ html {
   max-width: calc(var(--big-container-width) + var(--basic-indent) * 2);
   margin-left: auto;
   margin-right: auto;
-  padding-left: var(--basic-indent);
-  padding-right: var(--basic-indent);
+  padding-left: calc(var(--basic-indent) * 2);
+  padding-right: calc(var(--basic-indent) * 2);
 }
 .small-container {
   max-width: calc(var(--small-container-width) + var(--basic-indent) * 2);
   margin-left: auto;
   margin-right: auto;
+  padding-left: calc(var(--basic-indent) * 6);
+  padding-right: calc(var(--basic-indent) * 6);
 }
 
 .color-red {
