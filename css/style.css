@@ -12,6 +12,7 @@
 .items-center {
   align-items: center;
 }
+
 .align-beetween {
   align-content: space-between;
 }
@@ -48,10 +49,12 @@ header .dot {
   margin-left: 6px;
   margin-right: 6px;
 }
+
 .grid-header {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 2fr;
+  row-gap: 18px;
 }
 .header {
   padding-top: 50px;
@@ -73,9 +76,13 @@ header .dot {
   color: white;
 }
 .logo-wrapper {
-  max-width: 254px;
   grid-area: 1/1/2/1;
   grid-row: span 2;
+}
+
+.header .logo {
+  position: relative;
+  z-index: 3;
 }
 .nav {
   grid-area: 2/2/2/2;
@@ -83,6 +90,12 @@ header .dot {
   font-size: 16px;
   color: var(--color-blue);
   justify-content: flex-end;
+}
+.nav a:nth-child(3) {
+  color: var(--color-red);
+}
+.header .nav a:nth-child(3):hover {
+  border-bottom-color: var(--color-red);
 }
 .header .nav a {
   transition: all 0.3s linear;
@@ -101,6 +114,12 @@ header .dot {
   fill: var(--color-red);
 }
 .hide-check {
+  display: none;
+}
+.mobile-burger {
+  position: relative;
+}
+.close {
   display: none;
 }
 /* --------------Header----------------- */
