@@ -27,9 +27,6 @@
   :root {
     --basic-indent: calc(var(--basic-space) * 2);
   }
-  .card img {
-    object-fit: cover;
-  }
 }
 /* -------------------------------------851px----------------------------------------------- */
 @media screen and (max-width: 851px) {
@@ -260,6 +257,9 @@
   }
   .footer span {
     display: none;
+  }
+  .header .nav .active-red {
+    border-bottom-color: transparent;
   }
 }
 /* -------------------- */

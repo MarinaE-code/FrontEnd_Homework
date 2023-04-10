@@ -70,3 +70,8 @@ html {
 .hidden {
   display: none !important;
 }
+
+.contact-wrapper {
+  margin-top: var(--basic-indent);
+  margin-bottom: var(--basic-indent);
+}
