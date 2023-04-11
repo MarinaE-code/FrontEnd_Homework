@@ -100,7 +100,7 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
-  max-width: calc(var(--small-container-width) / 2 - var(--basic-indent));
+  width: 100%;
 }
 .contact-adress,
 .contact-tel,
@@ -147,11 +147,10 @@
   background: #f5f5fa;
   border-radius: 12px;
   padding: var(--basic-indent);
-  max-width: calc(var(--small-container-width) / 2 - var(--basic-indent));
+  width: 100%;
 }
 .form-elements {
   gap: 30px;
-  max-width: 650px;
 }
 .answer-wrapper,
 .name-message {
@@ -166,18 +165,22 @@
   border: 1px solid #ffffff;
   border-radius: 8px;
   padding: 15px;
+  line-height: 26px;
 }
-input::placeholder {
+input::placeholder,
+textarea::placeholder,
+.answer-title {
   color: #b3b3ba;
 }
+
 .input-name:focus {
   border: 1px solid #24a3ff;
   border-color: #24a3ff;
 }
-
-.answer-title {
-  color: #b3b3ba;
-}
+/* .input-name:invalid {
+  border-color: #ff0000;
+  color: #ff0000;
+} */
 
 .form-elements,
 .name-message,
@@ -193,6 +196,12 @@ input::placeholder {
   padding-top: 18px;
   padding-bottom: 18px;
   text-align: center;
+}
+.btn-send:hover {
+  background: #0085ff;
+}
+.btn-send:active {
+  background: #006ccf;
 }
 
 /* -------------------contact---------------------------- */
