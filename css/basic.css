@@ -4,8 +4,8 @@
   --color-grey: #b3b3ba;
   --bg-grey: #f5f5fa;
   --color-dark: #46466e;
-  /* --big-container-width: 1320px;
-  --small-container-width: 1080px; */
+  --big-container-width: 1600px;
+  --small-container-width: 1360px;
   --color-red: #f0145a;
   --color-blue: #24a3ff;
   --bg-light: #e6e6f0;
@@ -32,6 +32,12 @@ html {
   color: var(--color-main-regular);
 }
 
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
 .color-grey {
   color: var(--color-grey);
 }
@@ -42,7 +48,7 @@ html {
   color: var(--color-blue);
 }
 .big-container {
-  max-width: calc(var(--big-container-width) + var(--basic-indent) * 2);
+  max-width: calc(var(--big-container-width) + var(--basic-indent) * 4);
   margin-left: auto;
   margin-right: auto;
   padding-left: calc(var(--basic-indent) * 2);
@@ -52,8 +58,8 @@ html {
   max-width: calc(var(--small-container-width) + var(--basic-indent) * 2);
   margin-left: auto;
   margin-right: auto;
-  padding-left: calc(var(--basic-indent) * 6);
-  padding-right: calc(var(--basic-indent) * 6);
+  padding-left: calc(var(--basic-indent) * 2);
+  padding-right: calc(var(--basic-indent) * 2);
 }
 
 .color-red {
@@ -72,6 +78,6 @@ html {
 }
 
 .contact-wrapper {
-  margin-top: var(--basic-indent);
-  margin-bottom: var(--basic-indent);
+  margin-top: calc(var(--basic-indent) * 2);
+  margin-bottom: calc(var(--basic-indent) * 2);
 }

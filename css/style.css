@@ -96,6 +96,12 @@
   border-radius: 12px;
 }
 /* -------------------contact---------------------------- */
+.data-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: calc(var(--small-container-width) / 2 - var(--basic-indent));
+}
 .contact-adress,
 .contact-tel,
 .contact-email {
@@ -141,9 +147,11 @@
   background: #f5f5fa;
   border-radius: 12px;
   padding: var(--basic-indent);
+  max-width: calc(var(--small-container-width) / 2 - var(--basic-indent));
 }
 .form-elements {
   gap: 30px;
+  max-width: 650px;
 }
 .answer-wrapper,
 .name-message {
@@ -158,7 +166,13 @@
   border: 1px solid #ffffff;
   border-radius: 8px;
   padding: 15px;
+}
+input::placeholder {
   color: #b3b3ba;
+}
+.input-name:focus {
+  border: 1px solid #24a3ff;
+  border-color: #24a3ff;
 }
 
 .answer-title {

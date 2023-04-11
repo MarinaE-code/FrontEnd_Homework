@@ -1,22 +1,11 @@
 @media (max-width: 1920px) {
-  :root {
-    --basic-space: 40px;
-  }
-  .small-container {
-    padding-left: calc(var(--basic-space) * 7);
-    padding-right: calc(var(--basic-space) * 7);
-  }
   .card img {
     object-fit: cover;
   }
 }
 
-/* -------------------------------------1440px----------------------------------------------- */
-@media (max-width: 1440px) {
-  :root {
-    --basic-space: 15px;
-    --basic-indent: calc(var(--basic-space) * 2);
-  }
+/* -------------------------------------1600px----------------------------------------------- */
+@media (max-width: 1600px) {
   .small-container {
     padding-left: calc(var(--basic-indent) * 6);
     padding-right: calc(var(--basic-indent) * 6);
