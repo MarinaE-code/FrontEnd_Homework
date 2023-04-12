@@ -118,13 +118,15 @@
   display: flex;
   gap: 10px;
   align-items: center;
-}
-.social-wrapper a:hover {
-  color: #f0145a;
+  max-width: max-content;
 }
 .social-wrapper:hover svg path {
   fill: #f0145a;
 }
+.social-wrapper:hover a {
+  color: #f0145a;
+}
+
 .contact-wrapper hr {
   height: 4px;
   color: #e6e6f0;
@@ -192,9 +194,9 @@ textarea::placeholder,
 .input-email:focus {
   outline: 1px solid #24a3ff;
 }
+
 /* .input-name:invalid {
-  border-color: #ff0000;
-  color: #ff0000;
+  outline: 1px solid #ff0000;
 } */
 
 .form-elements,

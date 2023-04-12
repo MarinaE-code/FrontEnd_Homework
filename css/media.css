@@ -19,7 +19,7 @@
   }
 }
 /* -------------------------------------851px----------------------------------------------- */
-@media screen and (max-width: 851px) {
+@media screen and (max-width: 905px) {
   .grid-card {
     grid-template-columns: repeat(2, 1fr);
     gap: var(--basic-indent);
