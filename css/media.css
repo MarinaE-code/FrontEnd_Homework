@@ -258,5 +258,10 @@
   .header .nav .active-red {
     border-bottom-color: transparent;
   }
+  .contact-wrapper {
+    padding-left: calc(var(--basic-indent));
+    padding-right: calc(var(--basic-indent));
+  }
 }
+
 /* -------------------- */
