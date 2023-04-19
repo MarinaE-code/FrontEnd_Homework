@@ -6,9 +6,25 @@
 
 /* -------------------------------------1600px----------------------------------------------- */
 @media (max-width: 1600px) {
+  :root {
+    --big-container-width: 1320px;
+    --small-container-width: 1080px;
+  }
+
   .small-container {
     padding-left: calc(var(--basic-indent) * 6);
     padding-right: calc(var(--basic-indent) * 6);
+  }
+  .oksana-info {
+    flex-direction: column;
+    align-items: start;
+  }
+  .oksana-info span {
+    display: none;
+  }
+  .small-container-Oksana {
+    padding-left: calc(var(--basic-indent) * 2);
+    padding-right: calc(var(--basic-indent) * 2);
   }
 }
 /* -------------------------------------1024px----------------------------------------------- */
@@ -16,6 +32,12 @@
   .contact-wrapper {
     padding-left: calc(var(--basic-indent) * 2);
     padding-right: calc(var(--basic-indent) * 2);
+  }
+  .small-container-Oksana {
+    grid-template-columns: 300px auto;
+  }
+  .photo-oksana img {
+    width: 300px;
   }
 }
 /* -------------------------------------851px----------------------------------------------- */

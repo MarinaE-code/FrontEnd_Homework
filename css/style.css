@@ -227,6 +227,11 @@ textarea::placeholder,
 
 /* -------------------contact---------------------------- */
 /* ---------------TEAM ENTRY------------------------------------------- */
+.small-container-Oksana {
+  display: grid;
+  grid-template-columns: 400px auto;
+  gap: 60px;
+}
 .team-emptry {
   margin-top: calc(var(--basic-indent) * 2);
 }
@@ -242,6 +247,9 @@ textarea::placeholder,
 
 .photo-oksana {
   object-fit: cover;
+}
+.photo-oksana img {
+  width: 400px;
 }
 .Oksana-title {
   font-size: 38px;

@@ -54,7 +54,8 @@ body {
   padding-left: calc(var(--basic-indent) * 2);
   padding-right: calc(var(--basic-indent) * 2);
 }
-.small-container {
+.small-container,
+.small-container-Oksana {
   max-width: calc(var(--small-container-width) + var(--basic-indent) * 2);
   margin-left: auto;
   margin-right: auto;
