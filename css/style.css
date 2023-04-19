@@ -230,10 +230,17 @@ textarea::placeholder,
 .small-container-Oksana {
   display: grid;
   grid-template-columns: 400px auto;
-  gap: 60px;
+  grid-template-rows: auto auto;
+  column-gap: 60px;
 }
 .team-emptry {
   margin-top: calc(var(--basic-indent) * 2);
+}
+.about-oksana {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  grid-area: 1/2/1/2;
 }
 .oksana-wrapper {
   border-radius: 12px;
@@ -243,13 +250,15 @@ textarea::placeholder,
   display: flex;
   flex-direction: column;
   gap: 30px;
+  grid-area: 2/2/2/2;
 }
 
 .photo-oksana {
   object-fit: cover;
+  grid-area: 1/1/1/1;
 }
 .photo-oksana img {
-  width: 400px;
+  max-width: 100%;
 }
 .Oksana-title {
   font-size: 38px;
