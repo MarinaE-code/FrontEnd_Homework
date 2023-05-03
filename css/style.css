@@ -549,7 +549,7 @@ body.gradient .logo a svg path {
   margin-top: 60px;
 }
 .homepage-team img {
-  object-fit: cover;
+  align-self: stretch;
 }
 
 .homepage-team-title,
@@ -572,6 +572,37 @@ body.gradient .logo a svg path {
 }
 .homepage-team-alex {
   color: var(--color-grey);
+}
+.circle-wrap {
+  display: flex;
+  gap: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  justify-content: center;
+}
+.circle-1 {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: block;
+  background: #24a3ff;
+}
+.circle-2 {
+  display: block;
+  background: #24a3ff;
+  opacity: 0.2;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+.circle-3 {
+  display: block;
+  background: #24a3ff;
+  opacity: 0.2;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
 }
 
 /* --------------------LOGO------------------- */

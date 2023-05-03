@@ -155,6 +155,14 @@
     flex-direction: row;
     width: min-content;
   }
+  .homepage-team {
+    flex-direction: column;
+    
+  
+}
+
+
+
 }
 /* -------------------------------------450px----------------------------------------------- */
 @media screen and (max-width: 585px) {
