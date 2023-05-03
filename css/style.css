@@ -408,6 +408,9 @@ body.gradient .header {
   width: 100%;
   z-index: 2;
 }
+body.gradient .header .logo svg path:first-child {
+  fill: #f0145a;
+}
 body.gradient .nav {
   color: white;
 }
@@ -586,7 +589,7 @@ body.gradient .logo a svg path {
   justify-content: center;
 }
 .logo-card img {
-  max-height: 100%;
+  max-height: 50%;
 }
 .logo-card.bg-1 {
   background: #1c4280;
