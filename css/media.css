@@ -145,7 +145,8 @@
   }
   .vertikal-line {
     grid-area: none;
-    transform: rotate(90deg);
+    width: 100%;
+    min-height: 4px;
   }
   .tabs-right {
     grid-area: none;

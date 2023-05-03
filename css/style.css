@@ -548,6 +548,10 @@ body.gradient .logo a svg path {
   justify-content: space-between;
   margin-top: 60px;
 }
+.homepage-team img {
+  object-fit: cover;
+}
+
 .homepage-team-title,
 .homepage-service-title,
 .homepage-public-title {
