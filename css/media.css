@@ -3,6 +3,12 @@
     object-fit: cover;
   }
 }
+@media (max-width: 1720px) {
+  .logo-grid {
+    border-radius: 12px;
+    overflow: hidden;
+  }
+}
 
 /* -------------------------------------1600px----------------------------------------------- */
 @media (max-width: 1600px) {
