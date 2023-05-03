@@ -584,6 +584,10 @@ body.gradient .logo a svg path {
 .owl-theme .owl-nav.disabled + .owl-dots {
   margin-top: 30px;
 }
+.slider-item {
+  border-radius: 12px;
+  overflow: hidden;
+}
 
 .owl-theme .owl-dots .owl-dot span {
   width: 16px;
