@@ -10,6 +10,7 @@
   --color-blue: #24a3ff;
   --bg-light: #e6e6f0;
   --basic-indent: calc(var(--basic-space) * 2);
+  --logo-height: 120px;
 }
 
 * {

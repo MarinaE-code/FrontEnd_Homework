@@ -3,7 +3,7 @@
     object-fit: cover;
   }
 }
-@media (max-width: 1720px) {
+@media (min-width: 1720px) {
   .logo-grid {
     border-radius: 12px;
     overflow: hidden;
@@ -44,7 +44,7 @@
     grid-template-columns: 300px auto;
   }
 }
-/* -------------------------------------851px----------------------------------------------- */
+/* -------------------------------------980px----------------------------------------------- */
 @media screen and (max-width: 980px) {
   .grid-card {
     grid-template-columns: repeat(2, 1fr);
@@ -116,6 +116,10 @@
   }
   .contact-wrapper {
     flex-direction: column;
+  }
+  /* -------------homepage----------------- */
+  .logo-grid {
+    grid-template-columns: repeat(3, 1fr);
   }
   /* -----------------Footer---------------- */
 }
@@ -327,8 +331,12 @@
   .publications-wrapper {
     grid-template-columns: repeat(1, 1fr);
   }
+
+  /* ------------Homepage-------------- */
+  .logo-grid {
+    grid-template-columns: 100%;
+    max-height: calc(var(--logo-height) * 6);
+    overflow-y: auto;
+  }
 }
-
-/* ------------Oksana-------------- */
-
 /* -------------------- */
