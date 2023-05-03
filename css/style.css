@@ -591,12 +591,12 @@ body.gradient .logo a svg path {
   margin: 5px 7px;
   background: #24a3ff;
   display: block;
-  opacity: 0.2;
   border-radius: 50%;
 }
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
   background: #24a3ff;
+  opacity: 0.2;
 }
 .homepage-team img {
   max-width: 400px;
