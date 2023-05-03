@@ -157,12 +157,11 @@
   }
   .homepage-team {
     flex-direction: column;
-    
-  
-}
-
-
-
+    border-radius: 12px 0px;
+  }
+  .service-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 /* -------------------------------------450px----------------------------------------------- */
 @media screen and (max-width: 585px) {
@@ -366,6 +365,14 @@
     grid-template-columns: 100%;
     max-height: calc(var(--logo-height) * 6);
     overflow-y: auto;
+  }
+  .service-wrapper {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .service-title h2,
+  .tabs-left h2 {
+    font-size: 30px;
   }
 }
 /* -------------------- */
