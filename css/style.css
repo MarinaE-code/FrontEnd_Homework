@@ -596,14 +596,15 @@ body.gradient .logo a svg path {
   background: #24a3ff;
   display: block;
   border-radius: 50%;
+  opacity: 0.2;
 }
 .owl-carousel .owl-item img {
   width: 400px;
-  }
+}
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
   background: #24a3ff;
-  opacity: 0.2;
+  opacity: 1;
 }
 
 /* --------------------LOGO------------------- */
