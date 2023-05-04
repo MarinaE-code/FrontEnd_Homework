@@ -159,9 +159,9 @@
     flex-direction: column;
     border-radius: 12px 0px;
   }
-  .homepage-team img {
-    max-width: 648px;
-    max-height: 500px;
+  .owl-carousel .owl-item img {
+    width: 100%;
+    height: 500px;
   }
   .service-wrapper {
     grid-template-columns: 1fr 1fr;

@@ -597,15 +597,15 @@ body.gradient .logo a svg path {
   display: block;
   border-radius: 50%;
 }
+.owl-carousel .owl-item img {
+  width: 400px;
+  }
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
   background: #24a3ff;
   opacity: 0.2;
 }
-.homepage-team img {
-  max-width: 400px;
-  max-height: 298px;
-}
+
 /* --------------------LOGO------------------- */
 .logo-wrap {
   display: grid;
